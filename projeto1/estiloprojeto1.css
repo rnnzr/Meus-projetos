@@ -57,6 +57,7 @@ menu:hover>p{
 nav{
     display: flex;
     flex-direction: row;
+    width: fit-content;
 }
 menu>p{
     margin-top: 25px;
@@ -93,15 +94,52 @@ audio{
     height: 30px;
     position: fixed;
     right: 0;
+    padding-right: 20px;
     }
+
+form{
+    display: inline-block;
+    position: absolute;
+    left: 80%;
+    margin-top: 10px;
+    background-color: #759DBB;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    width: fit-content;
+    color: #1A2833 ;
+    font-weight: bold;
+}
+#enterbutton{
+    padding: 5px;
+    margin-left: 65%;
+}
+
+section{   
+    margin-top: 300px;
+    margin-right: 20px;
+    margin-left: 1500px;
+    background-color: lightgrey;
+    border: 1px solid #1A2833;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+section>iframe{
+    margin: auto;
+    padding: 20px;
+}
 
 @media screen and (max-width: 1500px) {
     header,body,footer{
         display: block;
         height: fit-content;
+        width: fit-content;
     }
     nav{
        text-align: center;
+       width: fit-content;
     }
     audio{
         position: relative;
@@ -109,3 +147,4 @@ audio{
         margin-left: 35%;
     }
 }
+
