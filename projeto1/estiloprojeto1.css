@@ -4,9 +4,11 @@
     margin: 0px;
     padding: 0px;
 }
-
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
 body{
-   height: 100vh; 
    background-image: linear-gradient(to bottom right, #69B0E5, #759DBB, #738491, #565F66);
        
 }
@@ -19,6 +21,7 @@ header{
     font-size: 2.6em;
     color: #759DBB;
     box-shadow: 5px 5px 5px #28333C;
+    width: 100vw;
 }
 header>h1{
     text-shadow: 1px 1px 2px black;
@@ -86,8 +89,23 @@ footer{
     font-weight: bolder;
     text-align: center;
 }
-footer>audio{
+audio{
     height: 30px;
     position: fixed;
     right: 0;
     }
+
+@media screen and (max-width: 1500px) {
+    header,body,footer{
+        display: block;
+        height: fit-content;
+    }
+    nav{
+       text-align: center;
+    }
+    audio{
+        position: relative;
+        display: block;
+        margin-left: 35%;
+    }
+}
