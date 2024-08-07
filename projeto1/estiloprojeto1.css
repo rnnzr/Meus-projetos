@@ -42,7 +42,11 @@ menu{
     border-radius: 20px;
     color: #28333C;
     transition: all 200ms;
+    margin-top: 50px;
     
+}
+h2{
+    text-align: center;
 }
 menu:hover{
     box-shadow: inset 2px 2px 2px 2px #28333C ;
@@ -132,7 +136,7 @@ section>iframe{
 }
 
 @media screen and (max-width: 1500px) {
-    header,body,footer{
+    header, body, footer, section{
         display: block;
         height: fit-content;
         width: fit-content;

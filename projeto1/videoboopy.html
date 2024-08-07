@@ -6,6 +6,14 @@
     <link rel="shortcut icon" href="imagens/favicon3.png" type="image/x-icon">
     <title>Vídeo Boopy</title>
     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        ::-webkit-scrollbar{
+            height: 0px;
+            width: 0px;
+        }
         body{
             height: 100vh;
             background-image: linear-gradient(to bottom right, #69B0E5, #759DBB, #738491, #565F66);
@@ -27,6 +35,16 @@
             width: 450px;
             height: 450px;
             padding: 50px;
+        }
+        @media screen and (max-width: 768x) {
+            div{
+                height: 900px;  
+                width: 600px; 
+                margin: auto;                         }
+            body{
+                height: fit-content;
+                width: fit-content;
+            }
         }
     </style>
 </head>
