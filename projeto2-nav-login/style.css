@@ -52,7 +52,7 @@ li.navli{
     white-space: nowrap;   
 }
 li.navli:hover{
-    color: rgb(208, 255, 80);
+    color: rgb(73, 201, 194);
 }
 a{
     text-decoration: none;
@@ -130,4 +130,76 @@ section{
     margin: auto;
     margin-top: 2px;
     
+}
+
+main{
+    margin: auto;
+    margin-top: 50px;
+    height: 240px;
+    width: 360px;
+    background-color: rgba(255, 255, 255, 0.555);
+    border: 1px solid darkslategray;
+    border-radius: 10px;
+    padding: 15px;
+}
+h4{
+    padding-bottom: 15px;
+}
+#imail{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#isenha{
+    padding: 5px;
+    }
+#submit{
+    margin-left: 270px;
+    padding: 10px;
+    position: relative;
+    top: -60px;
+    cursor: pointer;    
+}
+
+#forgot{
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+    width: 140px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 0.8em;
+    text-align: center;
+    position: relative;
+    top: -12px;
+}
+#register{
+    border: 1px solid darkslategray;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 30px;
+    text-align: center;
+    background-color: rgb(15, 1, 53);
+    position: relative;
+    top: -12px;
+    }
+
+h3>a{
+    color: white;
+}
+
+#forgot:hover{
+    box-shadow: 2px 2px 5px rgb(129, 115, 182) inset;
+    
+}
+#register:hover{
+    background-color: rgb(45, 38, 71);
+}
+form>input:focus-within{
+    background-color: rgba(130, 115, 182, 0.37);
+}
+.material-symbols-outlined{
+    vertical-align: text-bottom;
+    margin-top: 7px;  
+
 }
