@@ -9,7 +9,7 @@ html,body{
     width: 100vw;
 }
 body{
-   background-image: linear-gradient(to bottom right, #69B0E5, #759DBB, #738491, #565F66);
+   background-image: linear-gradient(to top, #69B0E5, #759DBB, #1A2833);
        
 }
 header{
