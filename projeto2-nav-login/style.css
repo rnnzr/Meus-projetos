@@ -136,7 +136,7 @@ main{
     margin: auto;
     margin-top: 50px;
     height: 240px;
-    width: 360px;
+    width: 330px;
     background-color: rgba(255, 255, 255, 0.555);
     border: 1px solid darkslategray;
     border-radius: 10px;
@@ -147,14 +147,14 @@ h4{
     padding-bottom: 15px;
 }
 #imail{
-    padding: 5px;
+    padding: 3px;
     margin-bottom: 5px;
 }
 #isenha{
-    padding: 5px;
+    padding: 3px;
     }
 #submit{
-    margin-left: 270px;
+    margin-left: 250px;
     padding: 10px;
     position: relative;
     top: -60px;
@@ -175,19 +175,20 @@ h4{
 #register{
     border: 1px solid darkslategray;
     border-radius: 20px;
-    width: 150px;
+    width: 130px;
     padding: 5px;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 15px;
     text-align: center;
     background-color: rgb(15, 1, 53);
     position: relative;
     top: -12px;
+    font-size: 1em;
     }
 
 h3>a{
     color: white;
-}
+    }
 
 #forgot:hover{
     box-shadow: 2px 2px 5px rgb(129, 115, 182) inset;
@@ -201,6 +202,10 @@ form>input:focus-within{
 }
 .material-symbols-outlined{
     vertical-align: text-bottom;
-    margin-top: 7px;  
+    margin-top: 7px; 
+    padding: -2px; 
 
+}
+label{
+    font-size: 0.9em;
 }
