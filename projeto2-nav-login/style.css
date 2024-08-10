@@ -26,21 +26,24 @@ header{
 
 h1{
     color: white;
-    font-weight: bolder;
-    cursor: pointer;    
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;    
     
 }
 nav{
     display: flex;
     flex-wrap: nowrap;
+    white-space: nowrap;   
     }
 
 li.navli{
     list-style: none;
     display: inline-block;
     color: white;
-    font-size: 1.3em;
-    padding: 15px;
+    font-size: 1.2em;
+    padding: 5px;
+    white-space: nowrap;   
 }
 li.navli:hover{
     color: rgb(208, 255, 80);
@@ -50,7 +53,7 @@ a{
     color: black;
 }
 button{
-    font-size: 1.3em;
+    font-size: 1.1em;
     border-radius: 30px;
     padding: 15px;
     color: rgb(10, 0, 36);
@@ -66,7 +69,7 @@ button:hover{
 }
 
 #homeicon{
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     cursor: pointer;
     vertical-align: middle;
