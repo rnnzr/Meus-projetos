@@ -27,6 +27,7 @@ header{
 h1{
     color: white;
     font-weight: bold;
+    font-size: 1.5em;
     cursor: pointer;
     white-space: nowrap;    
     
@@ -53,12 +54,11 @@ a{
     color: black;
 }
 button{
-    font-size: 1.1em;
+    font-size: 1em;
     border-radius: 30px;
-    padding: 15px;
+    padding: 10px;
     color: rgb(10, 0, 36);
-    flex-shrink: 10;
-
+    
 }
 button:hover{
     box-shadow: 3px 3px 10px rgb(138, 138, 138) inset;

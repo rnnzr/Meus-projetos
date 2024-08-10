@@ -23,10 +23,14 @@
     }
     button{
         font-size: 1.3em;
+        padding: 15px;
     }
     #homeicon{
         font-size: 1.5em;
-}
+    }
+    h1{
+        font-size: 2em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -52,10 +56,14 @@
     }
     button{
         font-size: 1.3em;
+        padding: 15px;
     }
     #homeicon{
         font-size: 1.5em;
         
+    }
+    h1{
+        font-size: 2em;
     }
 }
 
