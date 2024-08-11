@@ -11,8 +11,9 @@ html,body{
     background-color: rgb(209, 209, 209);
     background-image: url(imagem/pexels-chaitaasticblur-2083840.jpg);
     background-size: cover;
-    background-position: bottom center;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header{
