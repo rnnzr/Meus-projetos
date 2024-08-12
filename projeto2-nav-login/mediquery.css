@@ -15,8 +15,8 @@
         margin: 20px;
         margin-left: 50px;
         margin-top: 5px;
-        height: 250px;
-        width: 180px;
+        width: 167px;
+        height: 200px;
     }
     li.menuli{
         margin: 5px;
@@ -38,6 +38,7 @@
         top: -60px;
         cursor: pointer;    
     }
+   
 }
 
 @media screen and (min-width: 992px) {
@@ -55,8 +56,8 @@
     section{
         margin: 20px;
         margin-top: 5px;
-        height: 250px;
-        width: 180px;
+        width: 167px;
+        height: 200px;
     }
     li.menuli{
         margin: 5px;
@@ -79,5 +80,6 @@
         top: -60px;
         cursor: pointer;    
     }
+
 }
 

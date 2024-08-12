@@ -112,10 +112,11 @@ menu:hover{
 
 li.menuli{
     margin: auto;
-    width: 100px;    
+    width: 160px;    
     display: block;
-    padding: 10px;
-    padding-left: 23px;
+    padding: 10px;    
+    border-bottom: 1px solid black;
+    text-align: center;
 }
 li.menuli:hover{
     text-decoration: underline;
@@ -125,7 +126,7 @@ li.menuli:hover{
 section{
     display: none;
     border: 1px solid black;
-    width: 170px;
+    width: 162px;
     height: 180px;
     border-radius: 20px;
     box-shadow: 3px 3px 5px darkslategray inset;
