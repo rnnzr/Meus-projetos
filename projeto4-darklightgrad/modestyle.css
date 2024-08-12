@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(235, 235, 235);
+    
+}
+
+body:has(input[value="dark"]:checked){
+    background-color: rgb(8, 8, 8);
+    color: white;  
+}
+
+main{
+    height: 100vh;
+    width: 100vw;    
+}
+menu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div#mode{
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px blue,
+    -1px -1px 10px red;
+    transition: all 0.5s ease;
+}
+div#mode:hover{
+    transform: scale(1.05);
+}
+
+label{
+    padding: 5px;
+}
+
+section{
+    margin: auto;
+    margin-top: 225px;
+    height: 100px;
+    width: 360px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    
+}
+div#forma{
+    background-color: rgb(32, 73, 255);    
+    height: 70px;
+    width: 70px;    
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transition: all 1s ease;
+}
+div#forma:hover{
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    transform: rotateX(40deg);
+}
+section>h1{
+    background: linear-gradient(to bottom right, rgb(30, 52, 247), rgb(255, 46, 46) );
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 15px 20px 4px rgb(228, 228, 228);
+    transition: all 1s ease;
+}
+section>h1:hover{    
+    transform: scale(1.5);
+    transform: scale3d(50deg);
+}
+

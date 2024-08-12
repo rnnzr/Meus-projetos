@@ -36,7 +36,7 @@
         position: relative;
         top: -60px;
         cursor: pointer;    
-    }
+    }    
 }
 @media screen and (min-width: 992px) {
     li.navli{
@@ -76,6 +76,6 @@
         position: relative;
         top: -60px;
         cursor: pointer;    
-    }
+    }   
 }
 

@@ -186,6 +186,7 @@ form>input:focus-within{
     background-color: rgba(130, 115, 182, 0.37);
 }
 .material-symbols-outlined{
+    line-height: 1;
     vertical-align: text-bottom;
     margin-top: 7px; 
     padding: -2px; 
