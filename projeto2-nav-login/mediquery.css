@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {                
-    
     li.navli{
         margin-right: 30px;
         font-size: 1.4em;
@@ -38,9 +37,7 @@
         top: -60px;
         cursor: pointer;    
     }
-   
 }
-
 @media screen and (min-width: 992px) {
     li.navli{
         margin-right: 100px;
@@ -80,6 +77,5 @@
         top: -60px;
         cursor: pointer;    
     }
-
 }
 
