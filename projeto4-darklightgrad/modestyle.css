@@ -10,6 +10,7 @@ html,body{
     height: 100vh;
     width: 100vw;
     background-color: rgb(235, 235, 235);
+    background-attachment: fixed;
     
 }
 
@@ -55,7 +56,7 @@ label{
 
 section{
     margin: auto;
-    margin-top: 100px;
+    margin-top: 60px;
     height: 100px;
     width: 360px ;
     display: flex;
@@ -67,12 +68,14 @@ div#forma{
     background-color: rgb(32, 73, 255);    
     height: 70px;
     width: 70px;    
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    transition: all 1s ease;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);    
+    transition: all 1s ease;                         
+    
 }
 div#forma:hover{
     clip-path: polygon(0 0, 50% 100%, 100% 0);
     transform: rotateX(40deg);
+    
 }
 section>h1{
     background: linear-gradient(to bottom right, rgb(30, 52, 247), rgb(255, 46, 46) );
@@ -91,7 +94,7 @@ section>h1:hover{
 
 article{
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     width: 350px;
     padding: 10px;
     text-align: center;
@@ -100,3 +103,25 @@ article{
 
 }
 
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#img{
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.514));
+    transition: all 1s ease;
+    margin-right: 5px;    
+}
+#img:hover{
+    transform: rotateY(40deg);
+}
+#img2{
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.514));
+    transition: all 1s ease;
+}
+#img2:hover{
+    transform: rotateY(-40deg);
+}
