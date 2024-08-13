@@ -31,13 +31,13 @@ menu{
 div#mode{
     margin-top: 50px;
     border: 1px solid black;
-    width: 220px;
-    height: 50px;
+    width: 250px;
+    height: 60px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 1px 1px 10px blue,
     -1px -1px 10px red;
     transition: all 0.5s ease;
@@ -47,7 +47,9 @@ div#mode:hover{
 }
 
 label{
-    padding: 5px;
+    padding: 10px;
+    font-size: 0.9em;
+    
 }
 
 section{
@@ -76,7 +78,7 @@ section>h1{
     background-clip: text;
     color: transparent;
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 1.8em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 15px 20px 4px rgb(228, 228, 228);
     transition: all 1s ease;
