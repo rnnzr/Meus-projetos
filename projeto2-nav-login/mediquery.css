@@ -37,6 +37,9 @@
         top: -60px;
         cursor: pointer;    
     }    
+    main{
+        backdrop-filter: blur(10px);   
+    }
 }
 @media screen and (min-width: 992px) {
     li.navli{
@@ -77,5 +80,8 @@
         top: -60px;
         cursor: pointer;    
     }   
+    main{
+        backdrop-filter: blur(10px);   
+    }
 }
 
