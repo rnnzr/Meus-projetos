@@ -74,57 +74,16 @@ button:hover{
     vertical-align: middle;
     padding-bottom: 10px;
 }
-#menuicon{
-    color: black;
-    font-weight: bolder;
-    display: inline-block;
-    margin-bottom: 7px;      
-}
+
 h2{
     display: inline-block;
     font-size: 1.3em;
     margin-top: -5px;
 }
-menu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    width: 110px;
-    padding: 5px;
-    border-radius: 15px;
-}
-menu:hover{
-    border: 1.5px solid darkslategrey;    
-    cursor: pointer;
-    box-shadow: 1px 1px 5px darkslategray inset;
-    transition: 0.3s;
-}
-li.menuli{
-    margin: auto;
-    width: 160px;    
-    display: block;
-    padding: 10px;    
-    border-bottom: 1px solid black;
-    text-align: center;
-}
-li.menuli:hover{
-    text-decoration: underline;
-    list-style: disc;    
-}
-section{
-    display: none;
-    border: 1px solid black;
-    width: 162px;
-    height: 180px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 5px darkslategray inset;
-    margin: auto;
-    margin-top: 2px;       
-}
+
 main{
     margin: auto;
-    margin-top: 50px;
+    margin-top: 150px;
     height: 240px;
     width: 330px;
     background-color: rgba(255, 255, 255, 0.555);
